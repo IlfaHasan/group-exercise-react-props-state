@@ -29,13 +29,16 @@ function App() {
 	return (
 		<div className="App">
 
-			<h1>React props and state</h1>
-			<ChuckCard />
-
+			<h1>CHUCK-THE UNBEATABLE!!!</h1>
+			<ChuckCard greeting={chuckGreeting}/>
+			
 			<h2>Chuck Info: </h2>
-			<ChuckInfo />
-
+			<ChuckInfo whalesSaved={whalesSaved} roundKicks={roundHouseKicks}/>
+			
 			<h2>Jokes: </h2>
+			{
+				
+			}
 
 		</div>
 	);
